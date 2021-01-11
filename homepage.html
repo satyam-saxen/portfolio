@@ -8,12 +8,10 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-	
-
 
 	<header class="header">
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top float">
 			<div class="container-fluid">
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -31,28 +29,35 @@
 
 	</header>
 
-	<section id="home">
-		<div>Hello, this is Satyam Saxena</div>
-		<div>I'm a Application Developer Intern at Technogise Pvt Ltd</div>
-		<h1>My Portfolio</h1>
-		<div>In the big world, small things matters</div>
+	<section id="home" class="layout-border">
+		<div class="home-overlay"></div>
+		<div class="intro">
+			<div>Hello, this is Satyam Saxena</div>
+			<div>I'm a Application Developer Intern at Technogise Pvt Ltd</div>
+			<h1>My Portfolio</h1>
+			<div>In the big world, small things matters</div>
+		</div>
 	</section>
 
-	<section id="aboutme">
+	<section id="aboutme" class="layout-border">
 		<div class = "container">
-			<div class="row">About Me</div>
-			<div class ="row"> Hello there, I'm Satyam Saxena, Application Development Intern at Technogise Pvt Ltd.Prior to joining here, i have done internships in a couple of other organisations where i got some good exposure to data science, backend development and scripting. I'm always keen to learn new technologies & concepts and codes actively during my free time as well.Through this internship, i aim to improve my communication skills, coding skills, and collaboration skills. I hope to travel the world (...ideally with someone special... :D...) and write an autobiography someday in the future... :-). 
+			<div class="row d-flex justify-content-center" >
+				<div class="col-xs-6">
+					<h3>About Me</h3>
+					<p> Hello there, I'm Satyam Saxena, Application Development Intern at Technogise Pvt Ltd.Prior to joining here, i have done internships in a couple of other organisations where i got some good exposure to data science, backend development and scripting. I'm always keen to learn new technologies & concepts and codes actively during my free time as well.Through this internship, i aim to improve my communication skills, coding skills, and collaboration skills. I hope to travel the world (...ideally with someone special... :D...) and write an autobiography someday in the future... :-). 
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="projects" >
+	<section id="projects" class="layout-border">
 		<div class="container">
-			<div class="row">
+			<div class="row d-flex justify-content-center">
 
-				<div class="col-sm-6">
+				<div class="col-sm-6 col-sm-offset-3">
 
-					<div class="projects-section-space">
+					<div class="projects-section">
 						<h2 class="porjects-title">My Projects</h2>
 						<div></div>
 						<div class="projects-subtitle">
@@ -68,7 +73,7 @@
 
 				<div class="col-sm-3">
 
-					<div>
+					<div class="iconbox">
 						<div class="iconbox-icon">
 							<span class="icon1"></span>
 						</div>
@@ -84,7 +89,7 @@
 
 				<div class="col-sm-3">
 
-					<div>
+					<div class="iconbox">
 						<div class="iconbox-icon">
 							<span class="icon2"></span>
 						</div>
@@ -100,7 +105,7 @@
 
 				<div class="col-sm-3">
 
-					<div>
+					<div class="iconbox">
 						<div class="iconbox-icon">
 							<span class="icon3"></span>
 						</div>
@@ -116,7 +121,7 @@
 
 				<div class="col-sm-3">
 
-					<div >
+					<div class="iconbox">
 						<div class="iconbox-icon">
 							<span class="icon4"></span>
 						</div>
@@ -134,11 +139,11 @@
 		</div>
 	</section>
 
-	<section id="technologies" >
+	<section id="technologies" class="layout-border">
 		<div class="container">
-			<div class="row">
+			<div class="row d-flex justify-content-center">
 
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="col-sm-6 col-sm-offset-3 ">
 
 					<div class="technologies-section-space">
 						<h2 class="technologies-title">Technology / Skills</h2>
@@ -156,7 +161,7 @@
 
 				<div class="col-sm-6">
 
-					<div>
+					<div class="iconbox">
 						<div class="iconbox-icon">
 							<span class="icon1"></span>
 						</div>
@@ -172,7 +177,7 @@
 
 				<div class="col-sm-6">
 
-					<div>
+					<div class="iconbox">
 						<div class="iconbox-icon">
 							<span class="icon2"></span>
 						</div>
@@ -188,7 +193,7 @@
 
 				<div class="col-sm-6">
 
-					<div>
+					<div class="iconbox">
 						<div class="iconbox-icon">
 							<span class="icon3"></span>
 						</div>
@@ -208,11 +213,11 @@
 		</div>
 	</section>
 
-	<section id="contact" >
+	<section id="contact" class="layout-border">
 		<div class="container">
 			<div class="row">
 
-				<div>
+				<div class="iconbox">
 
 					<div class="contact-section-space">
 						<h2 class="contact-title">Contacts</h2>
@@ -225,7 +230,7 @@
 
 			<div class="row">
 
-				<div>
+				<div class="iconbox">
 					<div class="iconbox-icon">
 						<span class="icon1"></span>
 					</div>
@@ -242,7 +247,7 @@
 
 			<div class="row">
 
-				<div>
+				<div class="iconbox">
 					<div class="iconbox-icon">
 						<span class="icon2"></span>
 					</div>
@@ -259,7 +264,7 @@
 
 			<div class="row">
 
-				<div>
+				<div class="iconbox">
 					<div class="iconbox-icon">
 						<span class="icon3"></span>
 					</div>
@@ -274,7 +279,7 @@
 			</div>
 			<div class="row">
 
-				<div>
+				<div class="iconbox">
 					<div class="iconbox-icon">
 						<span class="icon4"></span>
 					</div>
@@ -291,9 +296,9 @@
 		</div>
 	</section>
 
-	<section id="dropline">
+	<section id="dropline" class="layout-border d-flex justify-content-center">
 		<div class="container">
-			<div class="row">
+			<div class="row d-flex justify-content-center">
 
 				<div>
 
@@ -306,7 +311,7 @@
 
 			</div>
 
-			<div class="row">
+			<div class="row d-flex justify-content-center">
 
 				<div >
 
@@ -341,14 +346,14 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-3">
+				<div class="col-sm-12">
 
 					<ul class="social-links">
-						<li><a href="https://www.facebook.com" >Facebook</a></li>
-						<li><a href="https://www.gmail.com" >Gmail</a></li>
-						<li><a href="https://www.linkedin.com" >LinkedIn</a></li>
-						<li><a href="https://www.twitter.com" >Twitter</a></li>
-						<li><a href="https://www.instagram.com" >Instagram</a></li>
+						<li><a href="https://www.facebook.com" class="wow"><img src="images/f.png"></a></li>
+						<li><a href="https://www.gmail.com" class="wow"><img src="images/g.jpg"></a></li>
+						<li><a href="https://www.linkedin.com" class="wow"><img src="images/l.jpg"></a></li>
+						<li><a href="https://www.twitter.com" class="wow"><img src="images/t.jpg"></a></li>
+						<li><a href="https://www.instagram.com" class="wow"><img src="images/i.jpg"></a></li>
 					</ul>
 
 					<p >Made by Satyam Saxena</p>
