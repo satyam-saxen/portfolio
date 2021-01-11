@@ -298,7 +298,7 @@
 
 	<section id="dropline" class="layout-border d-flex justify-content-center">
 		<div class="container">
-			<div class="row d-flex justify-content-center">
+			<div class="row layout-border2">
 
 				<div>
 
@@ -315,30 +315,29 @@
 
 				<div >
 
-					<form id="dropline-form" role="form">
+					<form >
 						<div >
-							<div >
-								<label for="c_name">Name</label>
+							<div class="mb-3">
+								<label for="c_name" class="form-label">Name</label>
 								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
 							</div>
 
-							<div >
-								<label for="c_email">Email</label>
+							<div class="mb-3">
+								<label for="c_email" class="form-label">Email</label>
 								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
 							</div>
 
-							<div >
-								<textarea id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+							<div class="mb-3">
+								<textarea id="c_message" name="c_message" rows="7" cols="156" placeholder="Message"></textarea>
 							</div>
 
 							<button type="submit" onclick="sendFunc()">Send Message</button>
 						</div>
-						<div ></div>
 					</form>
 
 				</div>
 
-			</div><!-- .row -->
+			</div>
 		</div>
 	</section>
 
