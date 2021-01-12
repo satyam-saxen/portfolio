@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: 100% 100%;
 	padding: 0;
 	align-content: center;
+	padding-bottom: 10px;
 }
 
 .gap100{
@@ -37,7 +38,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0 15px;
 }
 
-
+.container{
+	box-sizing: border-box;
+}
 
 .kkp {
 	width: 100%;
@@ -111,8 +114,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-links a {
-	width: 200px;
-	height: 145px;
 	display: block;
 	line-height: 35px;
 	text-align: center;
